@@ -39,9 +39,7 @@
     "raw-loader": "^3.1.0",
     "webpack": "^4.41.5"
   },
-  "dependencies": {
-    "min-dash": "^3.5.2"
-  },
+  "dependencies": {},
   "peerDependencies": {
     "bpmn-js": "6.x"
   }
