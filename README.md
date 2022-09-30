@@ -17,10 +17,10 @@ Add as additional module to [bpmn-js](https://github.com/bpmn-io/bpmn-js).
 ### Modeler
 
 ```javascript
-var BpmnModeler = require('bpmn-js/lib/Modeler');
-var executableFixModule = require('bpmn-js-executable-fix');
+import BpmnModeler from 'bpmn-js/lib/Modeler';
+import executableFixModule from 'bpmn-js-executable-fix';
 
-var modeler = new BpmnModeler({
+const modeler = new BpmnModeler({
   container: '#canvas',
   additionalModules: [
     executableFixModule
