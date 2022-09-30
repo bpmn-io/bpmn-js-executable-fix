@@ -1,6 +1,6 @@
 {
   "name": "bpmn-js-executable-fix",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "description": "bpmn-js extension which makes sure that `isExecutable` is set on `bpmn:Process`",
   "main": "index.js",
   "scripts": {
