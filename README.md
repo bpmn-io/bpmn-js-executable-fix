@@ -1,5 +1,7 @@
 # bpmn-js executable fix
 
+[![CI](https://github.com/bpmn-io/bpmn-js-executable-fix/actions/workflows/CI.yml/badge.svg)](https://github.com/bpmn-io/bpmn-js-executable-fix/actions/workflows/CI.yml)
+
 A bpmn-js extension that makes sure that `isExecutable` property is either true or false for each `bpmn:Process`.
 
 ## Installation
