@@ -15,10 +15,6 @@
   },
   "author": "Maciej Barelkowski <maciej.barelkowski@camunda.com> (https://github.com/barmac)",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/bpmn-io/bpmn-js-executable-fix/issues"
-  },
-  "homepage": "https://github.com/bpmn-io/bpmn-js-executable-fix#readme",
   "devDependencies": {
     "bpmn-js": "^9.4.1",
     "chai": "^4.2.0",
