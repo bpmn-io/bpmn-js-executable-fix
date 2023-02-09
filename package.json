@@ -16,7 +16,7 @@
   "author": "Maciej Barelkowski <maciej.barelkowski@camunda.com> (https://github.com/barmac)",
   "license": "MIT",
   "devDependencies": {
-    "bpmn-js": "^11.3.0",
+    "bpmn-js": "^11.3.1",
     "chai": "^4.3.6",
     "eslint": "^8.24.0",
     "eslint-plugin-bpmn-io": "^0.16.0",
