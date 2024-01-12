@@ -17,21 +17,21 @@
   "license": "MIT",
   "devDependencies": {
     "bpmn-js": "^16.3.2",
-    "chai": "^4.3.6",
+    "chai": "^4.4.0",
     "eslint": "^8.24.0",
     "eslint-plugin-bpmn-io": "^0.16.0",
-    "karma": "^6.4.1",
+    "karma": "^6.4.2",
     "karma-chai": "^0.1.0",
-    "karma-chrome-launcher": "^3.1.1",
+    "karma-chrome-launcher": "^3.2.0",
     "karma-env-preprocessor": "^0.1.1",
     "karma-firefox-launcher": "^2.1.2",
     "karma-mocha": "^2.0.1",
     "karma-webpack": "^5.0.0",
-    "mocha": "^10.0.0",
+    "mocha": "^10.2.0",
     "mocha-test-container-support": "^0.2.0",
-    "puppeteer": "^18.0.5",
+    "puppeteer": "^21.7.0",
     "raw-loader": "^4.0.2",
-    "webpack": "^5.74.0"
+    "webpack": "^5.89.0"
   },
   "peerDependencies": {
     "bpmn-js": ">= 6"
