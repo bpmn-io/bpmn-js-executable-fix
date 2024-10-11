@@ -2,15 +2,14 @@ import bpmnIoPlugin from 'eslint-plugin-bpmn-io';
 
 const files = {
   build: [ '*.config.js', '*.mjs' ],
-  test: [ '**/test/**/*.js' ],
-  lib: [ 'src/**/*.js' ]
+  test: [ '**/test/**/*.js' ]
 };
 
 export default [
   ...bpmnIoPlugin.configs.browser.map(config => {
     return {
       ...config,
-      files: files.lib
+      ignores: files.build
     };
   }),
   ...bpmnIoPlugin.configs.node.map(config => {
