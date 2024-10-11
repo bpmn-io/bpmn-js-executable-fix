@@ -15,10 +15,7 @@ export default [
   ...bpmnIoPlugin.configs.node.map(config => {
     return {
       ...config,
-      files: [
-        ...files.build,
-        ...files.test
-      ]
+      files: files.build
     };
   }),
   ...bpmnIoPlugin.configs.mocha.map(config => {
