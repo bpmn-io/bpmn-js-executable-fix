@@ -1,3 +1,5 @@
+import 'chai/register-expect';
+
 import {
   bootstrapModeler,
   inject
