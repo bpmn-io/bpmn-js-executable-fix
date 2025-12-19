@@ -1,4 +1,6 @@
-import 'chai/register-expect';
+import {
+  expect
+} from 'chai';
 
 import {
   bootstrapModeler,
